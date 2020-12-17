@@ -1,2 +1,6 @@
-# project_sajiv
-analyzing sports betting quotes
+# LAYING THE DRAW STRATEGY: SOME QUANTITATIVE ANALYSIS
+Collecting, cleaning, enriching and analyzing sports betting quotes
+
+Beating the bookies is an appealing idea living in many minds. This project originates from that idea, but also goes further. Collecting and analyzing sport betting quotes has been a side project, sparking me to learn about existing tools and techniques in the web scraping and data analysis field. This project has given me a reason to collect live data from a betting exchange using the Scrapy-Splash framework in combination with Crawlera to avoid a website ban, and analyze it with the python Pandas and Seaborn libraries.
+
+Laying the draw is a strategy commonly used by self-acclaimed sports betting traders. It consists of taking the lay position on the draw in a football game where the score is in balance (e.g. 0-0 or 1-1), and subsequently backing the draw after any one of the teams has scored. Laying the bet means to offer the bet, so when you lay the draw you basically bet on any other outcome than a draw. The assumption here is that the quote for the draw will be relatively low when the score is still in balance, and will jump high after one of the teams takes the lead, leaving the opportunity to lock in a profit. Of course this depends on a number of factors, such as timing of the goal (how much time is there left for an equalizer), openness of the game (how likely are the teams involved to score a lot), and favouritism (is there a clear favourite and did they take the lead). The objective of this analysis project is to quantify the impact of these 3 factors on the profitability of the laying the draw strategy. 
