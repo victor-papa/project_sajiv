@@ -1,4 +1,4 @@
-# LAYING THE DRAW STRATEGY: SOME QUANTITATIVE ANALYSIS
+## LAYING THE DRAW STRATEGY: SOME QUANTITATIVE ANALYSIS
 Collecting, cleaning, enriching and analyzing sports betting quotes
 
 Beating the bookies is an appealing idea living in many minds. This project originates from that idea, but also goes further. Collecting and analyzing sport betting quotes has been a side project, sparking me to learn about existing tools and techniques in the web scraping and data analysis field. This project has given me a reason to collect live data from a betting exchange using the Scrapy-Splash framework in combination with Crawlera to avoid a website ban, and analyze it with the python Pandas and Seaborn libraries.
