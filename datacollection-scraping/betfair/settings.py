@@ -65,11 +65,11 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
 }
 
-CRAWLERA_APIKEY = '9baddcb171f843b994b304cf557b2f99'
+CRAWLERA_APIKEY = '<insert your key here>'
 
 # Splash settings
 SPLASH_URL = 'https://rvgvp6ok-splash.scrapinghub.com'
-SPLASH_APIKEY = '4127499d8717493581a8593498158691'
+SPLASH_APIKEY = '<insert your key here>'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
 # Enable or disable extensions
